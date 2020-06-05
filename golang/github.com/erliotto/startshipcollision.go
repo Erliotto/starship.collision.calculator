@@ -28,12 +28,6 @@ type ship struct {
 	weapon weapon
 }
 
-/*
-func createShip(st shipType, w weapon) ship {
-	return ship{st, w}
-}
-*/
-
 type collistion int
 
 func collision(kind shipType, weapon weapon) collistion {
@@ -66,5 +60,5 @@ func collision(kind shipType, weapon weapon) collistion {
 }
 
 func main() {
-	fmt.Println("Hello, StarWars")
+	fmt.Println("[starship.collision .v1]")
 }
